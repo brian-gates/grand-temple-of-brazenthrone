@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node server"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "react": "^16.12.0",
