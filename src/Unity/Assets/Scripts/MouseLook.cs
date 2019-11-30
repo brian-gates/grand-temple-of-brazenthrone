@@ -47,11 +47,13 @@ public class MouseLook : MonoBehaviour
     }
     void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         // Make the rigid body not change rotation
         if (GetComponent<Rigidbody>())
             GetComponent<Rigidbody>().freezeRotation = true;
         originalRotation = transform.localRotation;
     }
+
     public static float ClampAngle(float angle, float min, float max)
     {
         if (angle < -360F)
