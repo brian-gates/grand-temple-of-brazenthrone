@@ -2,8 +2,8 @@
 
 Based on https://www.milbysmaps.com/brazenthrone/
 
-https://brian-gates.github.io/grand-temple-of-brazenthrone/
+![Image of Reference](https://github.com/brian-gates/grand-temple-of-brazenthrone/blob/master/blends/reference.jpg)
 
-Run locally: `yarn start`
+Live demo: https://brian-gates.github.io/grand-temple-of-brazenthrone/
 
-Visit http://localhost:3000/
+To run locally: `yarn start`, then visit http://localhost:3000/.
