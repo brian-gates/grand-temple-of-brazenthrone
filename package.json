@@ -1,8 +1,12 @@
 {
   "scripts": {
-    "start": "node server"
+    "start": "node server",
+    "import:unity": "node scripts/import-unity.js tmp/"
   },
   "devDependencies": {
     "express": "^4.17.1"
+  },
+  "dependencies": {
+    "mv": "^2.1.1"
   }
 }
