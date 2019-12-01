@@ -13,6 +13,7 @@
   <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Fondamento&display=swap" rel="stylesheet">
   <script type="text/babel">
     const root = document.querySelector('#root')
     ReactDOM.render(<div>
@@ -20,7 +21,14 @@
     </div>, root)
     const unityInstance = UnityLoader.instantiate("unityContainer", "Build/Build.json", { onProgress: UnityProgress })
   </script>
-  <style></style>
+  <style>
+    body {
+      font-family: 'Fondamento', cursive;
+    }
+    h1 {
+      text-align: center;
+    }
+  </style>
 </head>
 
 <body>
