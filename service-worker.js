@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/grand-temple-of-brazenthrone/precache-manifest.89ca96d0ce7e966b251a4a20c9c6793c.js"
+  "/grand-temple-of-brazenthrone/precache-manifest.039eb40c128edd87dd79317f5b5b0127.js"
 );
 
 self.addEventListener('message', (event) => {
