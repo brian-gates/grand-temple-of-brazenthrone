@@ -5,6 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     CharacterController characterController;
+    PlayerController playerController;
 
     public float speed = 10f;
     private Vector3 moveDirection = Vector3.zero;
@@ -14,6 +15,7 @@ public class Movement : MonoBehaviour
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        playerController = GetComponent<PlayerController>();
     }
 
     // Update is called once per frame
@@ -27,5 +29,9 @@ public class Movement : MonoBehaviour
         Debug.DrawRay(transform.position, strafe*10, Color.red);
         Debug.DrawRay(transform.position, moveDirection*10, Color.green);
         characterController.Move(moveDirection);
+        if (Input.GetKeyDown("space")) {
+            playerController.Leap();
+        }
     }
+
 }
