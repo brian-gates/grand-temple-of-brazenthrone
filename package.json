@@ -4,6 +4,7 @@
   },
   "devDependencies": {
     "express": "^4.17.1",
+    "gh-pages": "^2.1.1",
     "react-unity-webgl": "^7.1.9"
   }
 }
