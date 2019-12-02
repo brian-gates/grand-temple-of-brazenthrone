@@ -3,6 +3,7 @@
     "start": "node server"
   },
   "devDependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "react-unity-webgl": "^7.1.9"
   }
 }
