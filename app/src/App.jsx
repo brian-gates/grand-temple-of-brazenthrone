@@ -1,12 +1,12 @@
-import React, { FunctionComponent } from 'react';
+import React from 'react';
 import Unity, { UnityContent } from "react-unity-webgl";
 import './App.css';
 
 const unityContent = new UnityContent(
-  "MyGame/Build.json",
-  "MyGame/UnityLoader.js"
+  "Build.json",
+  "UnityLoader.js"
 );
-export const App: FunctionComponent = () => {
+export const App = () => {
   
   return (
     <div className="App">
