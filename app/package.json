@@ -1,7 +1,6 @@
 {
-  "name": "app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "grand-temple-of-brazenthrone",
+  "version": "1.0.0",
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -31,6 +30,6 @@
   "devDependencies": {
     "@types/react": "^16.9.13",
     "gh-pages": "^2.1.1",
-    "typescript": "^3.7.2"
+    "typescript": "^3.7.2",
   }
 }
