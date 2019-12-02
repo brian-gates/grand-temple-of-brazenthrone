@@ -1,8 +1,39 @@
 {
+  "name": "grand-temple-of-brazenthrone",
+  "homepage": "https://brian-gates.github.io/grand-temple-of-brazenthrone",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.2.0"
+  },
   "scripts": {
-    "start": "node server"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "express": "^4.17.1"
+    "@types/react": "^16.9.13",
+    "gh-pages": "^2.1.1",
+    "react-unity-webgl": "^7.1.9",
+    "typescript": "^3.7.2"
   }
 }
